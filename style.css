@@ -1,0 +1,21 @@
+/* Remove default browser margin and center content */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
